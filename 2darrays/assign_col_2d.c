@@ -1,4 +1,4 @@
-```c
+
 #include <stdio.h>
 
 void printColumn(int a[][4], int colIndex, int rows, char when) {
@@ -21,7 +21,7 @@ void printColumn(int a[][4], int colIndex, int rows, char when) {
 
 void changeColumn(int a[][4], int colIndex, int rows, int newValue) {
     for (int i = 0; i < rows; ++i) {
-        a[i][colIndex] = newValue;
+        a[i][colIndex] = newValue; //takes every element and changes it to the new value(colIndex)
     }
 }
 
@@ -41,4 +41,3 @@ int main() {
 
     return 0;
 }
-```
